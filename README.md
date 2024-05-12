@@ -1,2 +1,2 @@
 # UpcomingX
-Upcoming {unidentified} project, in collaboration with good pal June
+Upcoming {unidentified} project, in collaboration with June and Ivan
