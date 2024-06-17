@@ -2,8 +2,13 @@ const express = require('express');
 const bodyParser = require('body-parser');
 const cors = require('cors');
 const mongoose = require('mongoose');
+const goalRoutes = require('./routes/goalRoutes');
+const taskRoutes = require('./routes/taskRoutes');
 
 const app = express();
+
+app.use('/api/goals', goalRoutes);
+app.use('/api/tasks', taskRoutes);
 
 // Middleware
 app.use(bodyParser.json());
